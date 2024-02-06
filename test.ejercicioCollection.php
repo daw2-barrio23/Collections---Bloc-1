@@ -234,42 +234,8 @@ class FixedBudgetTask extends AbstractTask {
 }
 
 $Workitems = new TaskCollection();
-$Workitems->addItem(new TimeBasedTask('Tarea con Tiempo', "2024-01-11", "2024-01-18", "Usuario", "Descripción", 10, 5), "0");
+$Workitems->addItem(new TimeBasedTask('Tarea con Tiempo', "2024-02-17", "2024-10-18", "Nico", "Descripción", 10, 5), "0");
 echo $Workitems;
-$Workitems->addItem(new TimeBasedTask("Tarea con Tiempo2", "2024-01-11", "2024-01-18", "Usuario", "Descripción", 11, 6), "1");
+$Workitems->addItem(new TimeBasedTask("Tarea con Tiempo2", "2024-01-01", "2024-11-18", "Viri", "Descripción", 11, 6), "1");
 
-// print $Workitems;
 echo $Workitems;
-// $tarea1 = $Workitems->getItem("1");
-// print $tarea1;
-// print "<br>";
-
-
-
-// $Workitems->removeItem("1"); 
-// print "Removed: Tarea 1<br>";
-
-// try {
-    // $tarea1 = $Workitems->getItem("1"); 
-// } catch (KeyInvalidException $kie) {
-    // print "The collection doesn't contain anything called '1'";
-// }
-
-
-
-
-// $timeBasedTask = new TimeBasedTask('Tarea con Tiempo', "2024-01-11", "2024-01-18", "Usuario", "Descripción", 10, 5);
-// $timeBasedTask2 = new TimeBasedTask("Tarea con Tiempo2", "2024-01-11", "2024-01-18", "Usuario", "Descripción", 11, 6);
-// $timeBasedTask->add($timeBasedTask2);
-
-// $project = new Project("Proyecto Principal", "2024-01-31", "2024-02-01", "Asistente" , "Proyecto 1 desc" , 20);
-
-// $fixedBudgetTask = new FixedBudgetTask("Tarea con Presupuesto", "2024-02-02", "2024-02-03", "Munuera", "Maletín forrado al comité", 200000);
-// $subTask = new TimeBasedTask("Tarea con tiempo 3", "2024-01-12", "2024-01-15", "Usuario", "Descripción Subtarea", 8, 3);
-// $fixedBudgetTask->add($subTask);
-// $project->add($fixedBudgetTask);
-// $project->add($timeBasedTask);
-
-// // Mostrar la lista de tareas
-// echo "<br>Lista de tareas:<br>";
-// $project->getDescription();
